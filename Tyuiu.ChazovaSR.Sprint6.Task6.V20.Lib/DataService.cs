@@ -11,7 +11,20 @@ namespace Tyuiu.ChazovaSR.Sprint6.Task6.V20.Lib
     {
         public string CollectTextFromFile(string path)
         {
-            throw new NotImplementedException();
+            string resStr = "";
+            using (StreamReader reader = new StreamReader(path))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    string[] words = line.Split(' ');
+                    if (words.Length >= 2)
+                    {
+                        resStr += words[1] + " ";
+                    }
+                }
+                return resStr;
+            }
         }
     }
 }
