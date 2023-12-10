@@ -8,7 +8,7 @@ namespace Tyuiu.ChazovaSR.Sprint6.Task7.V2.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidGetMatrix()
+        public void GetMatrix()
         {
             string path = @"C:\Users\chazo\source\repos\Tyuiu.ChazovaSR.Sprint6\Tyuiu.ChazovaSR.Sprint6.Task7.V2\bin\Debug\InPutFileTask7V2.csv";
 
