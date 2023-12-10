@@ -73,7 +73,11 @@ namespace Tyuiu.ChazovaSR.Sprint6.Task7.V2
             this.Controls.Add(this.pictureBoxAvatar_CSR);
             this.Controls.Add(this.buttonOK_CSR);
             this.Controls.Add(this.labelInfo_CSR);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormAbout_CSR";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "О программе";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvatar_CSR)).EndInit();
             this.ResumeLayout(false);

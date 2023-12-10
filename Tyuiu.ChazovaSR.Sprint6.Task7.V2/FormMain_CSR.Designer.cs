@@ -201,6 +201,7 @@ namespace Tyuiu.ChazovaSR.Sprint6.Task7.V2
             // groupBoxResult_CSR
             // 
             this.groupBoxResult_CSR.Controls.Add(this.dataGridViewOutPut_CSR);
+            this.groupBoxResult_CSR.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBoxResult_CSR.Location = new System.Drawing.Point(0, 0);
             this.groupBoxResult_CSR.Name = "groupBoxResult_CSR";
             this.groupBoxResult_CSR.Size = new System.Drawing.Size(597, 273);
